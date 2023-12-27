@@ -19,6 +19,10 @@ const Modal = ({setModal, animarModal,setAnimarModal}) => {
             </div>
             <form className={`formulario ${animarModal ? 'animar' : 'cerrar'}`}>
                 <legend>Nuevo gasto</legend>
+                <div className='campo'>
+                    <label htmlFor="nombre">Nombre gasto</label>
+
+                </div>
 
             </form>
 
